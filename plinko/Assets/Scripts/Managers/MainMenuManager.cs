@@ -5,6 +5,11 @@ using UnityEngine;
 
 public class MainMenuManager : MonoBehaviour
 {
+    private void Start()
+    {
+        AudioManager.Instance.Play("menu");
+    }
+
     public void QuitGame()
     {
         Application.Quit();
