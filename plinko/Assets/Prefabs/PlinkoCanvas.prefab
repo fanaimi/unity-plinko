@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 822090930}
   - component: {fileID: 822090932}
   - component: {fileID: 822090931}
+  - component: {fileID: 543844504}
   m_Layer: 5
-  m_Name: TextBg
+  m_Name: DiscSpawnerArea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -75,6 +76,20 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &543844504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 822090929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a627ac55e2401d4aa62c104102060bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_discPrefab: {fileID: 6473648097019633570, guid: 38fa083a505bf254e97fe9ad0c317ee5, type: 3}
+  m_discHolder: {fileID: 0}
 --- !u!1 &2047782380
 GameObject:
   m_ObjectHideFlags: 0
@@ -362,9 +377,8 @@ GameObject:
   - component: {fileID: 7139528559674166448}
   - component: {fileID: 7139528559674166449}
   - component: {fileID: 7139528559674166462}
-  - component: {fileID: 352113892}
   m_Layer: 5
-  m_Name: GameOverCanvas
+  m_Name: PlinkoCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -456,20 +470,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &352113892
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7139528559674166463}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d62d556b658e3d49964ee812ae38ec1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_discPrefab: {fileID: 6473648097019633570, guid: 38fa083a505bf254e97fe9ad0c317ee5, type: 3}
-  m_discHolder: {fileID: 0}
 --- !u!1 &7139528559722935128
 GameObject:
   m_ObjectHideFlags: 0

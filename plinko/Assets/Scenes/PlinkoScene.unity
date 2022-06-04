@@ -130,7 +130,7 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 352113892, guid: d1916b8766f06b048a078a72e826c0b8, type: 3}
+    - target: {fileID: 543844504, guid: d1916b8766f06b048a078a72e826c0b8, type: 3}
       propertyPath: m_discHolder
       value: 
       objectReference: {fileID: 769494852}

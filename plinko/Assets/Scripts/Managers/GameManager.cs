@@ -33,7 +33,7 @@ namespace PLINKO
             {
                 s_instance = this;
             }
-            DontDestroyOnLoad(gameObject);
+            // DontDestroyOnLoad(gameObject);
         }
 
 
