@@ -17,7 +17,7 @@ namespace PLINKO
         public static GameManager Instance { get { return s_instance; } }
 
         // ==== Global utilities
-        
+        public bool m_canAddDisc = false;
 
         // ==== refs
         
@@ -40,10 +40,12 @@ namespace PLINKO
         // Start is called before the first frame update
         void Start()
         {
+            SetUpNewGame();
         }
 
         private void SetUpNewGame()
         {
+            m_canAddDisc = true;
         }
 
 
