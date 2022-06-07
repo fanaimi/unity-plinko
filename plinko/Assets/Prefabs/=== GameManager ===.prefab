@@ -43,3 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7652335f08f68ad4887d861df8bef501, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_canAddDisc: 0
+  m_coinsText: {fileID: 0}
+  m_livesText: {fileID: 0}
+  m_gameOverPanel: {fileID: 0}

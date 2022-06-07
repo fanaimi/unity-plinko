@@ -4263,7 +4263,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2770298869857990688}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.418, y: -7, z: 0}
+  m_LocalPosition: {x: 0.418, y: -7.02, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4571850536051250008}
@@ -4683,6 +4683,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7830468980133118068}
     m_Modifications:
+    - target: {fileID: 4683526683844056377, guid: d8be5bb5e80cf974893c8d81cef07dae, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: bb539174f1adc1e4e9da96a3b86c78b5, type: 2}
     - target: {fileID: 6364450248243986053, guid: d8be5bb5e80cf974893c8d81cef07dae, type: 3}
       propertyPath: m_Name
       value: ScoreCollider (5)
@@ -4692,12 +4696,16 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7816140320406880322, guid: d8be5bb5e80cf974893c8d81cef07dae, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.82591105
+      objectReference: {fileID: 0}
+    - target: {fileID: 7816140320406880322, guid: d8be5bb5e80cf974893c8d81cef07dae, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.689
       objectReference: {fileID: 0}
     - target: {fileID: 7816140320406880322, guid: d8be5bb5e80cf974893c8d81cef07dae, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.5
+      value: -0.5558
       objectReference: {fileID: 0}
     - target: {fileID: 7816140320406880322, guid: d8be5bb5e80cf974893c8d81cef07dae, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4749,6 +4757,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7830468980133118068}
     m_Modifications:
+    - target: {fileID: 4683526683844056377, guid: d8be5bb5e80cf974893c8d81cef07dae, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: bb539174f1adc1e4e9da96a3b86c78b5, type: 2}
     - target: {fileID: 6364450248243986053, guid: d8be5bb5e80cf974893c8d81cef07dae, type: 3}
       propertyPath: m_Name
       value: ScoreCollider (6)
@@ -4758,12 +4770,16 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7816140320406880322, guid: d8be5bb5e80cf974893c8d81cef07dae, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.82591105
+      objectReference: {fileID: 0}
+    - target: {fileID: 7816140320406880322, guid: d8be5bb5e80cf974893c8d81cef07dae, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.567
       objectReference: {fileID: 0}
     - target: {fileID: 7816140320406880322, guid: d8be5bb5e80cf974893c8d81cef07dae, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.5
+      value: -0.5558
       objectReference: {fileID: 0}
     - target: {fileID: 7816140320406880322, guid: d8be5bb5e80cf974893c8d81cef07dae, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11527,6 +11543,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7830468980133118068}
     m_Modifications:
+    - target: {fileID: 4683526683844056377, guid: d8be5bb5e80cf974893c8d81cef07dae, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: bb539174f1adc1e4e9da96a3b86c78b5, type: 2}
     - target: {fileID: 6364450248243986053, guid: d8be5bb5e80cf974893c8d81cef07dae, type: 3}
       propertyPath: m_Name
       value: ScoreCollider (1)
@@ -11536,12 +11556,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7816140320406880322, guid: d8be5bb5e80cf974893c8d81cef07dae, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.82591105
+      objectReference: {fileID: 0}
+    - target: {fileID: 7816140320406880322, guid: d8be5bb5e80cf974893c8d81cef07dae, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.652
       objectReference: {fileID: 0}
     - target: {fileID: 7816140320406880322, guid: d8be5bb5e80cf974893c8d81cef07dae, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.5
+      value: -0.5558
       objectReference: {fileID: 0}
     - target: {fileID: 7816140320406880322, guid: d8be5bb5e80cf974893c8d81cef07dae, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11659,6 +11683,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7830468980133118068}
     m_Modifications:
+    - target: {fileID: 4683526683844056377, guid: d8be5bb5e80cf974893c8d81cef07dae, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: bb539174f1adc1e4e9da96a3b86c78b5, type: 2}
     - target: {fileID: 6364450248243986053, guid: d8be5bb5e80cf974893c8d81cef07dae, type: 3}
       propertyPath: m_Name
       value: ScoreCollider (3)
@@ -11668,12 +11696,16 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7816140320406880322, guid: d8be5bb5e80cf974893c8d81cef07dae, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.82591105
+      objectReference: {fileID: 0}
+    - target: {fileID: 7816140320406880322, guid: d8be5bb5e80cf974893c8d81cef07dae, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.006
       objectReference: {fileID: 0}
     - target: {fileID: 7816140320406880322, guid: d8be5bb5e80cf974893c8d81cef07dae, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.5
+      value: -0.5558
       objectReference: {fileID: 0}
     - target: {fileID: 7816140320406880322, guid: d8be5bb5e80cf974893c8d81cef07dae, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11725,6 +11757,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7830468980133118068}
     m_Modifications:
+    - target: {fileID: 4683526683844056377, guid: d8be5bb5e80cf974893c8d81cef07dae, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: bb539174f1adc1e4e9da96a3b86c78b5, type: 2}
     - target: {fileID: 6364450248243986053, guid: d8be5bb5e80cf974893c8d81cef07dae, type: 3}
       propertyPath: m_Name
       value: ScoreCollider (4)
@@ -11734,12 +11770,16 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7816140320406880322, guid: d8be5bb5e80cf974893c8d81cef07dae, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.82591105
+      objectReference: {fileID: 0}
+    - target: {fileID: 7816140320406880322, guid: d8be5bb5e80cf974893c8d81cef07dae, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.854
       objectReference: {fileID: 0}
     - target: {fileID: 7816140320406880322, guid: d8be5bb5e80cf974893c8d81cef07dae, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.5
+      value: -0.5558
       objectReference: {fileID: 0}
     - target: {fileID: 7816140320406880322, guid: d8be5bb5e80cf974893c8d81cef07dae, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11787,6 +11827,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7830468980133118068}
     m_Modifications:
+    - target: {fileID: 4683526683844056377, guid: d8be5bb5e80cf974893c8d81cef07dae, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: bb539174f1adc1e4e9da96a3b86c78b5, type: 2}
     - target: {fileID: 6364450248243986053, guid: d8be5bb5e80cf974893c8d81cef07dae, type: 3}
       propertyPath: m_Name
       value: ScoreCollider
@@ -11796,12 +11840,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7816140320406880322, guid: d8be5bb5e80cf974893c8d81cef07dae, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.82591105
+      objectReference: {fileID: 0}
+    - target: {fileID: 7816140320406880322, guid: d8be5bb5e80cf974893c8d81cef07dae, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.531
       objectReference: {fileID: 0}
     - target: {fileID: 7816140320406880322, guid: d8be5bb5e80cf974893c8d81cef07dae, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.5
+      value: -0.5558
       objectReference: {fileID: 0}
     - target: {fileID: 7816140320406880322, guid: d8be5bb5e80cf974893c8d81cef07dae, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11853,6 +11901,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7830468980133118068}
     m_Modifications:
+    - target: {fileID: 4683526683844056377, guid: d8be5bb5e80cf974893c8d81cef07dae, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: bb539174f1adc1e4e9da96a3b86c78b5, type: 2}
     - target: {fileID: 6364450248243986053, guid: d8be5bb5e80cf974893c8d81cef07dae, type: 3}
       propertyPath: m_Name
       value: ScoreCollider (2)
@@ -11862,12 +11914,16 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7816140320406880322, guid: d8be5bb5e80cf974893c8d81cef07dae, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.82591105
+      objectReference: {fileID: 0}
+    - target: {fileID: 7816140320406880322, guid: d8be5bb5e80cf974893c8d81cef07dae, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.828
       objectReference: {fileID: 0}
     - target: {fileID: 7816140320406880322, guid: d8be5bb5e80cf974893c8d81cef07dae, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.5
+      value: -0.5558
       objectReference: {fileID: 0}
     - target: {fileID: 7816140320406880322, guid: d8be5bb5e80cf974893c8d81cef07dae, type: 3}
       propertyPath: m_LocalPosition.z

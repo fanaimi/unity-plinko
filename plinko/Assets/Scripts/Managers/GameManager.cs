@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 namespace PLINKO
 {
@@ -20,7 +21,15 @@ namespace PLINKO
         public bool m_canAddDisc = false;
 
         // ==== refs
+        [SerializeField] private TextMeshProUGUI m_coinsText;
+        [SerializeField] private TextMeshProUGUI m_livesText;
+        [SerializeField] private GameObject m_gameOverPanel;
+
+        // ==== vars
+        private int m_score;
+        private int m_lives;
         
+
 
         private void Awake()
         {
@@ -45,24 +54,48 @@ namespace PLINKO
 
         private void SetUpNewGame()
         {
+            m_gameOverPanel.SetActive(false);
+            m_score = 0;
+            m_lives = 3;
+            UpdateLivesText();
+            UpdateCoinsText();
             m_canAddDisc = true;
         }
 
-
-
-        // Update is called once per frame
-        void Update()
+        private void UpdateLivesText()
         {
+            m_livesText.text = $"x {m_lives}";
+        }
+
+        private void UpdateCoinsText()
+        {
+            m_coinsText.text = $"{m_score}";
+        }
+
+        public void AddScore(int score)
+        {
+            m_score += score;
+            UpdateCoinsText();
+        }
+
+        public void DecreaseLives() 
+        {
+            m_lives--;
+            UpdateLivesText();
+            if (m_lives > 0)
+            {
+                m_canAddDisc = true;
+            }
+            else
+            {
+                m_canAddDisc = false;
+                m_gameOverPanel.SetActive(true);
+                // print("GAME OVER");
+            }
 
         }
 
-       
-        private void OnDisable()
-        {
-            // unsubscribing
-        }
 
-       
     }
 
 

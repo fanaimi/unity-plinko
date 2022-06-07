@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 using PLINKO;
 
 /// <summary>
@@ -9,6 +10,7 @@ using PLINKO;
 /// </summary>
 public class DiscController : MonoBehaviour
 {
+    public event Action OnTouchBottom;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,7 +26,27 @@ public class DiscController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        print(other.GetComponent<ScoreCollider>().m_scoreToAdd);
+        if (other.CompareTag("scoreCollider"))
+        {
+            // print(other.GetComponent<ScoreCollider>().m_scoreToAdd);
+            GameManager.Instance.AddScore(other.GetComponent<ScoreCollider>().m_scoreToAdd);
+            GameManager.Instance.DecreaseLives();
+        }
     }
+
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.collider.CompareTag("pin"))
+        {
+            GameManager.Instance.AddScore(10);
+        }
+
+        if (collision.collider.CompareTag("redPin"))
+        {
+            GameManager.Instance.AddScore(20);
+        }
+    }
+
 
 }
