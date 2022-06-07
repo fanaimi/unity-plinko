@@ -1,14 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using PLINKO;
 
 /// <summary>
-/// @obj    Disc
-/// @desc   this will control disc, lives, score
+/// @obj    ScoreCollider
+/// @desc   keeps track of score 
 /// </summary>
-public class DiscController : MonoBehaviour
+public class ScoreCollider : MonoBehaviour
 {
+    [SerializeField] public int m_scoreToAdd;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,11 +21,4 @@ public class DiscController : MonoBehaviour
     {
         
     }
-
-
-    private void OnTriggerEnter(Collider other)
-    {
-        print(other.GetComponent<ScoreCollider>().m_scoreToAdd);
-    }
-
 }

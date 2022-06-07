@@ -34,13 +34,13 @@ public class DiscSpawner : MonoBehaviour, IPointerDownHandler
     public void OnPointerDown(PointerEventData downEventData)
     {
         if (!GameManager.Instance.m_canAddDisc) return;
-        Debug.Log(downEventData);
+        // Debug.Log(downEventData);
         Vector3 m_newPos = Camera.main.ScreenToWorldPoint(new Vector3(
             downEventData.position.x,
             downEventData.position.y,
             10
             ));
-        print(m_newPos);
+        // print(m_newPos);
         Vector3 discPos = new Vector3(
             m_newPos.x,
             m_defY,
