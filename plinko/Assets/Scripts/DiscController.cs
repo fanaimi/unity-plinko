@@ -10,24 +10,13 @@ using PLINKO;
 /// </summary>
 public class DiscController : MonoBehaviour
 {
-    public event Action OnTouchBottom;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
 
     private void OnTriggerEnter(Collider other)
     {
+
         if (other.CompareTag("scoreCollider"))
         {
+            AudioManager.Instance.Play("win");
             // print(other.GetComponent<ScoreCollider>().m_scoreToAdd);
             GameManager.Instance.AddScore(other.GetComponent<ScoreCollider>().m_scoreToAdd);
             GameManager.Instance.DecreaseLives();
@@ -39,11 +28,13 @@ public class DiscController : MonoBehaviour
     {
         if (collision.collider.CompareTag("pin"))
         {
+            AudioManager.Instance.Play("hitPin");
             GameManager.Instance.AddScore(10);
         }
 
         if (collision.collider.CompareTag("redPin"))
         {
+            AudioManager.Instance.Play("bling");
             GameManager.Instance.AddScore(20);
         }
     }

@@ -19,6 +19,7 @@ namespace PLINKO
 
         // ==== Global utilities
         public bool m_canAddDisc = false;
+        public bool m_gameOver = false;
 
         // ==== refs
         [SerializeField] private TextMeshProUGUI m_coinsText;
@@ -54,6 +55,7 @@ namespace PLINKO
 
         private void SetUpNewGame()
         {
+            m_gameOver = false;
             m_gameOverPanel.SetActive(false);
             m_score = 0;
             m_lives = 3;
@@ -87,7 +89,9 @@ namespace PLINKO
                 m_canAddDisc = true;
             }
             else
-            {
+            {  
+                if(!m_gameOver) AudioManager.Instance.Play("gameOver");
+                m_gameOver = true;
                 m_canAddDisc = false;
                 m_gameOverPanel.SetActive(true);
                 // print("GAME OVER");
